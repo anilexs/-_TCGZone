@@ -1,0 +1,77 @@
+nav {
+    height: 180px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.alogo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    height: auto;
+    max-height: 100%;
+    margin-top: 5%;
+}
+
+
+.langSelect{
+    background-color: white;
+    height: 60px;
+    width: 120px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.optLange {
+    background-color: white;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 50px;
+}
+
+
+.optLange .langOpt:first-child, .optLange .langDefaux:first-child {
+    padding-top: 5px;
+}
+
+.langOpt, .langDefaux{
+    display: flex;
+    height: 60px;
+    width: 120px;
+    justify-content: space-around;
+}
+
+.langImg{
+    display: flex;
+    align-items: center;
+}
+
+.langImg img{
+    height: 30px;
+    width: 30px;
+}
+
+.langTxt{
+    display: flex;
+    align-items: center;
+}

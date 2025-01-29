@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "fr": {
+            "iso" : "Français",
+            "flag" : "fr.png"
+        },
+        "en": {
+            "iso" : "Anglais",
+            "flag" : "en.png"
+        },
+        "es": {
+            "iso" : "espagnol",
+            "flag" : "es.png"
+        }
+    },
+    "login": "Connexion",
+    "SignUp": "Inscription"
+}
