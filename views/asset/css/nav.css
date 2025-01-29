@@ -29,6 +29,39 @@ li {
     margin-top: 5%;
 }
 
+/* login sign up */
+.login{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    margin-right: 15px;
+}
+
+.signUp{
+    background-color: orange;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.login:hover{
+    color: black;
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.signUp:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid orange;
+}
+
+
 
 .langSelect{
     background-color: white;

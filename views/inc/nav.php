@@ -23,10 +23,10 @@ if(isset($_COOKIE[''])){ ?>
                 <input type="text">
             </li>
             <li>
-                <button><?= $trad['login']; ?></button>
+                <button class="login"><?= $trad['login']; ?></button>
             </li>
             <li>
-                <button><?= $trad['SignUp']; ?></button>
+                <button class="signUp"><?= $trad['SignUp']; ?></button>
             </li>
             <li>
                 <div class='langSelect'>
@@ -39,13 +39,15 @@ if(isset($_COOKIE[''])){ ?>
                     </div>
                         
                     <div class="optLange close">
-                        <?php foreach ($country as $key => $value) { ?>
-                           <div class="langOpt">
-                               <div class="langImg">
-                                   <img src="<?= $value['flag'] ?>" alt="<?= $key ?>">
-                               </div>
-                               <div class="langTxt"><?= $value['lang'] ?></div> 
-                           </div>
+                        <?php foreach ($country as $key => $value) { 
+                            if($key != $lang){ ?>
+                                <div class="langOpt">
+                                    <div class="langImg">
+                                        <img src="<?= $value['flag'] ?>" alt="<?= $key ?>">
+                                    </div>
+                                    <div class="langTxt"><?= $value['lang'] ?></div> 
+                                </div>
+                            <?php } ?>
                         <?php } ?>
                     </div>
                 </div>
