@@ -17,6 +17,8 @@
             "flag" : "jp.png"
         }
     },
+    "home": "Home",
+    "earn": "earn money",
     "login": "Login",
     "SignUp": "Sign Up"
 }

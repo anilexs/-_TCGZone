@@ -17,6 +17,8 @@
             "flag" : "jp.png"
         }
     },
+    "home": "ホーム",
+    "earn": "お金を稼ぐ",
     "login": "接続",
     "SignUp": "登録"
 }

@@ -17,6 +17,8 @@
             "flag" : "jp.png"
         }
     },
+    "home": "Accueil",
+    "earn": "Gagner de l'argent",
     "login": "Connexion",
     "SignUp": "Inscription"
 }
