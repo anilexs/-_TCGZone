@@ -13,20 +13,24 @@ if(isset($_COOKIE[''])){ ?>
     </nav>
 <?php }else{ ?>
     <nav>
-        <ul>
+        <ul class="ulContenair">
             <li class="logoContener">
                 <a href="<?= $host ?>" class="alogo">
                     <img src="<?= $host ?>asset/img/logo2.png" alt="logo img" class="logo">
                 </a>
             </li>
-            <li>
-                <input type="text">
-            </li>
-            <li>
-                <button class="login"><?= $trad['login']; ?></button>
-            </li>
-            <li>
-                <button class="signUp"><?= $trad['SignUp']; ?></button>
+            <li class="liulmidle">
+                <ul class="ulmidle">
+                    <li>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <button class="login"><?= $trad['login']; ?></button>
+                    </li>
+                    <li>
+                        <button class="signUp"><?= $trad['SignUp']; ?></button>
+                    </li>
+                </ul>
             </li>
             <li>
                 <div class='langSelect'>

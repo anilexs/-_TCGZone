@@ -4,10 +4,24 @@ nav {
     align-items: center;
 }
 
-ul {
+.ulContenair {
     display: flex;
     height: 100%;
+    width: 100%;
     align-items: center;
+    justify-content: space-around;
+}
+
+.liulmidle{
+    width: 75%;
+}
+.ulmidle{
+    width: 100%;
+    display: flex;
+}
+
+.logoContener{
+    width: 180px;
 }
 
 li {
@@ -37,7 +51,6 @@ li {
     font-size: 20px;
     border-radius: 10px;
     border: 2px solid orange;
-    margin-right: 15px;
 }
 
 .signUp{
