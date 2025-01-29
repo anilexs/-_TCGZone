@@ -1,22 +1,22 @@
 {
     "lang": {
         "fr": {
-            "iso" : "French",
+            "iso" : "フランス語",
             "flag" : "fr.png"
         },
         "en": {
-            "iso" : "English",
+            "iso" : "英語",
             "flag" : "en.png"
         },
         "es": {
-            "iso" : "Spanish",
+            "iso" : "スペイン語",
             "flag" : "es.png"
         },
         "jp": {
-            "iso" : "Japan",
+            "iso" : "スペイン語",
             "flag" : "jp.png"
         }
     },
-    "login": "Login",
-    "SignUp": "Sign Up"
+    "login": "接続",
+    "SignUp": "登録"
 }

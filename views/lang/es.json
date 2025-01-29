@@ -11,6 +11,10 @@
         "es": {
             "iso" : "Español",
             "flag" : "es.png"
+        },
+        "jp": {
+            "iso" : "Japón",
+            "flag" : "jp.png"
         }
     },
     "login": "Conexión",
