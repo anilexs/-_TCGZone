@@ -13,15 +13,30 @@ nav {
 }
 
 .liulmidle{
-    width: 75%;
+    width: 76%;
 }
 .ulmidle{
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .logoContener{
     width: 180px;
+}
+
+.home{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.earn{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 li {
@@ -39,7 +54,7 @@ li {
 
 .logo {
     height: auto;
-    max-height: 80%;
+    max-height: 100%;
     margin-top: 5%;
 }
 

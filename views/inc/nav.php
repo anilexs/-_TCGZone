@@ -22,10 +22,13 @@ if(isset($_COOKIE[''])){ ?>
             <li class="liulmidle">
                 <ul class="ulmidle">
                     <li>
-                        <a href="<?= $host ?>"><?= $trad['home'] ?></a>
+                        <a href="<?= $host ?>" class="home"><?= $trad['home'] ?></a>
                     </li>
                     <li>
-                        <a href="<?= $host ?>earn"><?= $trad['earn'] ?></a>
+                        <a href="<?= $host ?>earn" class="earn"><?= $trad['earn'] ?></a>
+                    </li>
+                    <li>
+                        <a href="<?= $host ?>earn" class="earn">arcanon</a>
                     </li>
                     <li>
                         <input type="text">
